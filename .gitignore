@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (если не в poetry-managed)
+.env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Poetry
+poetry.lock
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# MyPy, coverage, etc.
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Excel output
+car_availability_matrix.xlsx
